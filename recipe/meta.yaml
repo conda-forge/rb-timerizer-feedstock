@@ -1,5 +1,5 @@
 {% set name = "timerizer" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: cc98494f2862595bc41e528a7f3ae3c32581c9cc9897a0f95240be7c2701f31b
+  sha256: 544bd642ac1af34eaff6f71351936e0dcb5f48fb7692b74285772b5269fab56d
 
 build:
   noarch: generic
